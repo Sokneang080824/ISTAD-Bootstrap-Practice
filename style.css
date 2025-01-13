@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Khmer";
+    src: url("/Fonts/Battambang-Regular.ttf");
+}
+@font-face{
+    font-family: "English";
+    src: url("/Fonts/Poppins-Regular.ttf");
+}
+body{
+    height: 3000px; /* Just for demonstration of scrolling */
+ 
+}
+
+/* header */
+.logo{
+    width: 90px;
+    height: 90px;
+}
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.nav-link:focus {
+    border-bottom: 2px solid orange;
+}
+a:hover{
+    color: orange !important;
+}
+.modal{
+    padding-right: 600px;
+}
+.modal-content {
+    width: 1000px;
+}
+
+img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+}
+
+.row .col img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* /* Footer styling */
+footer {
+    margin-top: 100px;
+    background-color: rgb(41, 41, 41);
+  }
+  .list-unstyled li{
+    padding-top: 18px ;
+  }
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    font-size: 20px;
+  }
+  .img {
+    width: 60px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .bg-img1 {
+    background-image: url('../img/foot3-img.png');
+  }
+  .bg-img2 {
+    background-image: url('../img/foot2-img.png');
+  }
+  .bg-img3 {
+    background-image: url('../img/foot-img.png');
+  }
+  
