@@ -5,11 +5,11 @@
 }
 @font-face {
   font-family: "Khmer";
-  src: url("/Fonts/Battambang-Regular.ttf");
+  src: url("Fonts/Battambang-Regular.ttf");
 }
 @font-face {
   font-family: "English";
-  src: url("/Fonts/Poppins-Regular.ttf");
+  src: url("Fonts/Poppins-Regular.ttf");
 }
 body {
   height: 3000px;
@@ -100,11 +100,11 @@ footer {
   background-position: center;
 }
 .bg-img1 {
-  background-image: url("../img/foot3-img.png");
+  background-image: url("..img/foot3-img.png");
 }
 .bg-img2 {
-  background-image: url("../img/foot2-img.png");
+  background-image: url("..img/foot2-img.png");
 }
 .bg-img3 {
-  background-image: url("../img/foot-img.png");
+  background-image: url("..img/foot-img.png");
 }

@@ -10,19 +10,19 @@
     border-radius: 5px;
 }
 .product-device-1::before{
-    background-image: url("/img/36.jpeg");
+    background-image: url("img/36.jpeg");
     background-size: cover;
 }
 .product-device-2::before{
-    background-image: url("/img/31.jpg");
+    background-image: url("img/31.jpg");
     background-size: cover;
 }
 .product-device-3::before{
-    background-image: url("/img/05.jpg");
+    background-image: url("img/05.jpg");
     background-size: cover;
 }
 .product-device-4::before{
-    background-image: url("/img/24.jpg");
+    background-image: url("img/24.jpg");
     background-size: cover;
 }
 .product-device-1,
