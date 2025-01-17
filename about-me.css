@@ -23,6 +23,22 @@
   60% { transform: translateY(-5px); }
 }
 
+.logo {
+  width: 90px;
+  height: 90px;
+}
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.nav-link:focus {
+  border-bottom: 2px solid orange;
+}
+a:hover {
+  color: orange !important;
+}
+
 .animated {
   animation: fadeIn 1s ease-out;
 }
@@ -38,7 +54,6 @@
 }
 
 .contact-icons i:hover {
-  color: #007bff;
   transform: scale(1.2);
 }
 
