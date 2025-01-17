@@ -5,11 +5,11 @@
 }
 @font-face {
   font-family: "Khmer";
-  src: url("Fonts/Battambang-Regular.ttf");
+  src: url("Fonts/Battambang-Regular.ttf") format('truetype');
 }
 @font-face {
   font-family: "English";
-  src: url("Fonts/Poppins-Regular.ttf");
+  src: url("Fonts/Poppins-Regular.ttf") format('truetype');
 }
 body {
   height: 3000px;
