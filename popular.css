@@ -17,11 +17,21 @@
     background-image: url("/img/31.jpg");
     background-size: cover;
 }
-.product-device-1{
+.product-device-3::before{
+    background-image: url("/img/05.jpg");
+    background-size: cover;
+}
+.product-device-4::before{
+    background-image: url("/img/24.jpg");
+    background-size: cover;
+}
+.product-device-1,
+.product-device-3{
     transform: rotate(30deg);
 }
 
-.product-device-2 {
+.product-device-2,
+.product-device-4 {
     top: -65%;
     right: auto;
     bottom: 0;
