@@ -83,9 +83,54 @@
       </div>
     </div>
   </header>
-  <section class="bg-dark opacity-50 text-white text-center py-5">
-    <h1 class="display-4 animated">About Me</h1>
-    <p class="lead animated">Get to know me better!</p>
+  <section class="bg-black position-sticky top-0" style=" z-index: 1020; opacity: 70%;">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-black" style="height: 70px;">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="img/logo.png" alt="Logo">
+        </a>
+  
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+  
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-3"><a class="nav-link text-warning" href="#"><i class="fa-solid fa-house pe-2"></i>Home</a></li>
+            <li class="nav-item dropdown bg-black">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="moviesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-film pe-2"></i>Movies</a>
+              <ul class="dropdown-menu bg-black border border-warning" aria-labelledby="moviesDropdown">
+                <li><a class="dropdown-item text-light" href="#">Drama</a></li>
+                <li><a class="dropdown-item text-light" href="#">Fantasy</a></li>
+                <li><a class="dropdown-item text-light" href="#">History</a></li>
+                <li><a class="dropdown-item text-light" href="#">Animation</a></li>
+                <li><a class="dropdown-item text-light" href="#">Adventure</a></li>
+              </ul>
+            </li>
+            <li class="nav-item px-3"><a class="nav-link text-white" href="popular.html"><i class="fa-solid fa-handshake pe-2"></i>Popular</a></li>
+            <li class="nav-item px-3"><a class="nav-link text-white" href="new.html"><i class="fa-solid fa-calendar pe-2"></i>New</a></li>
+            <li class="nav-item px-3"><a class="nav-link text-white" href="coming-soon.html"><i class="fa-solid fa-address-card pe-2"></i>Coming Soon</a></li>
+            <li class="nav-item v"><a class="nav-link text-white" href="about-me.html"><i class="fa-solid fa-user pe-2"></i>About Me</a></li>
+          </ul>
+  
+          <!-- Profile Dropdown -->
+          <div class="dropdown text-end">
+            <a href="#" class="d-block link-light text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://avatars.githubusercontent.com/u/159999396?v=4" alt="Profile" class="rounded-circle" width="32" height="32">
+            </a>
+            <ul class="dropdown-menu text-small">
+              <li><a class="dropdown-item" href="#"><i class="fa-brands fa-square-instagram pe-2 text-danger"></i>Instagram</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fa-brands fa-square-facebook pe-2 text-primary"></i>Facebook</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fa-brands fa-telegram pe-2 text-info"></i>Telegram</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fa-brands fa-twitter pe-2 text-primary"></i>Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
   </section>
 
   <main class="container my-5">

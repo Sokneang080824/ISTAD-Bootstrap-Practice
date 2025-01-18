@@ -56,55 +56,54 @@
         </div>
     </header>
   
-    <section class="bg-black d-flex align-items-center" style="z-index: 1020; position: sticky; top: 0; height: 70px; opacity: 70%">
-        <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-  
-            <a href="#" class="logo d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                <img class="w-100 h-100" src="img/logo.png" alt="">
-            </a>
+    <section class="bg-black position-sticky top-0" style=" z-index: 1020; opacity: 70%;">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-black" style="height: 70px;">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="img/logo.png" alt="Logo">
+          </a>
     
-            <ul class="nav col-12 col-lg-auto m-lg-auto mb-2 justify-content-center mb-md-0 ">
-              <li><a href="index.html" class="nav-link px-4 text-white"><i class="fa-solid fa-house pe-2"></i>Home</a></li>
-              <li class="nav-item position-relative">
-                <a href="#" class="nav-link px-4 text-white dropdown-toggle"><i class="fa-solid fa-film pe-2"></i>Movies</a>
-                <ul class="dropdown-menu text-small bg-black border border-warning">
-                  <li><a class="dropdown-item d-flex align-items-center gap-2 py-2 text-light" href="#">
-                    <span class="d-inline-block bg-success rounded-circle p-1"></span>Drama</a>
-                  </li>
-                  <li><a class="dropdown-item d-flex align-items-center gap-2 py-2 text-light" href="#">
-                    <span class="d-inline-block bg-primary rounded-circle p-1"></span>Fantasy</a>
-                  </li>
-                  <li><a class="dropdown-item d-flex align-items-center gap-2 py-2 text-light" href="#">
-                    <span class="d-inline-block bg-danger rounded-circle p-1"></span>History</a>
-                  </li>
-                  <li><a class="dropdown-item d-flex align-items-center gap-2 py-2 text-light" href="#">
-                    <span class="d-inline-block bg-info rounded-circle p-1"></span>Animation</a>
-                  </li>
-                  <li><a class="dropdown-item d-flex align-items-center gap-2 py-2 text-light" href="#">
-                    <span class="d-inline-block bg-warning rounded-circle p-1"></span>Adventure</a>
-                  </li>
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars text-white"></i>
+          </button>
+    
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item px-3"><a class="nav-link text-warning" href="#"><i class="fa-solid fa-house pe-2"></i>Home</a></li>
+              <li class="nav-item dropdown bg-black">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="moviesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-film pe-2"></i>Movies</a>
+                <ul class="dropdown-menu bg-black border border-warning" aria-labelledby="moviesDropdown">
+                  <li><a class="dropdown-item text-light" href="#">Drama</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Fantasy</a></li>
+                  <li><a class="dropdown-item text-light" href="#">History</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Animation</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Adventure</a></li>
                 </ul>
               </li>
-              <li><a href="popular.html" class="nav-link px-4 text-light"><i class="fa-solid fa-handshake pe-2"></i>Popular</a></li>
-              <li><a href="#" class="nav-link px-4 text-warning"><i class="fa-solid fa-calendar pe-2"></i>New</a></li>
-              <li><a href="coming-soon.html" class="nav-link px-4 text-white"><i class="fa-solid fa-address-card pe-2"></i>Coming Soon</a></li>
-              <li><a href="about-me.html" class="nav-link px-4 text-white"><i class="fa-solid fa-user pe-2"></i>About Me</a></li>
+              <li class="nav-item px-3"><a class="nav-link text-white" href="popular.html"><i class="fa-solid fa-handshake pe-2"></i>Popular</a></li>
+              <li class="nav-item px-3"><a class="nav-link text-white" href="new.html"><i class="fa-solid fa-calendar pe-2"></i>New</a></li>
+              <li class="nav-item px-3"><a class="nav-link text-white" href="coming-soon.html"><i class="fa-solid fa-address-card pe-2"></i>Coming Soon</a></li>
+              <li class="nav-item v"><a class="nav-link text-white" href="about-me.html"><i class="fa-solid fa-user pe-2"></i>About Me</a></li>
             </ul>
     
+            <!-- Profile Dropdown -->
             <div class="dropdown text-end">
-                <a href="#" class="d-block link-light text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img class="profile" src="https://avatars.githubusercontent.com/u/159999396?v=4" alt="mdo" width="32" height="32" class="rounded-circle">
-                </a>
-                <ul class="dropdown-menu text-small">
-                  <li><a class="dropdown-item" href="#"><i class="fa-brands fa-square-instagram pe-2 text-danger"></i>Instagram</a></li>
-                  <li><a class="dropdown-item" href="#"><i class="fa-brands fa-square-facebook pe-2 text-primary"></i>Facebook</a></li>
-                  <li><a class="dropdown-item" href="#"><i class="fa-brands fa-telegram pe-2 text-info"></i>Telegram</a></li>
-                  <li><a class="dropdown-item" href="#"><i class="fa-brands fa-twitter pe-2 text-primary"></i>Twitter</a></li>
-                </ul>
-              </div>
+              <a href="#" class="d-block link-light text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://avatars.githubusercontent.com/u/159999396?v=4" alt="Profile" class="rounded-circle" width="32" height="32">
+              </a>
+              <ul class="dropdown-menu text-small">
+                <li><a class="dropdown-item" href="#"><i class="fa-brands fa-square-instagram pe-2 text-danger"></i>Instagram</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-brands fa-square-facebook pe-2 text-primary"></i>Facebook</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-brands fa-telegram pe-2 text-info"></i>Telegram</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fa-brands fa-twitter pe-2 text-primary"></i>Twitter</a></li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </nav>
+      </div>
     </section>
 
     <main>
