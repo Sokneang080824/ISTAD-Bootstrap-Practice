@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wanderlust - Travel Blog</title>
     
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Wanderlust - Your Ultimate Travel Companion">
@@ -30,7 +29,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <title>Movise</title>
+    <title>Khmer Movise</title>
   </head>
 
 
@@ -47,78 +46,79 @@
 <body class="bg-black" style="font-family: English;">
 
   <header class="bg-black text-white py-2 position-relative" style="z-index: 1020;">
-      <div class="container">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-between">
+        <!-- Left Section -->
+        <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-lg-0">
+          <li><a href="#" class="nav-link px-2 link-light" style="font-family: Khmer;"><i class="fa-solid fa-location-dot pe-2 text-warning"></i>សង្កាត់ទឹកល្អក់ ខ័ណ្ឌទួលគោក​ រាជធានីភ្នំពេញ</a></li>
+          <li><a href="#" class="nav-link px-2 link-light"><i class="fa-solid fa-envelope pe-2 text-warning"></i>laysokneang80@gmail.com</a></li>
+        </ul>
   
-          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 link-light" style="font-family: Khmer;"><i class="fa-solid fa-location-dot pe-2 text-warning"></i>សង្កាត់ទឹកល្អក់ ខ័ណ្ឌទួលគោក​ រាជធានីភ្នំពេញ</a></li>
-            <li><a href="#" class="nav-link px-2 link-light"><i class="fa-solid fa-envelope pe-2 text-warning"></i>laysokneang80@gmail.com</a></li>
-          </ul>
+        <!-- Search Bar -->
+        <form class="col-12 col-lg-auto mb-lg-0 me-lg-3 w-25 pe-1 d-flex" role="search">
+          <input type="search" class="form-control text-bg-light" placeholder="Find movies, TV shows and more" aria-label="Search">
+          <i class="fa-solid fa-magnifying-glass pt-2 ps-2"></i>
+        </form>
   
-          <form class="col-12 col-lg-auto mb-lg-0 me-lg-3 w-25 pe-1 d-flex" role="search">
-            <input type="search" class="form-control text-bg-light " placeholder="Find movies, TV shows and more" aria-label="Search">
-            <i class="fa-solid fa-magnifying-glass pt-2 ps-2"></i>
-          </form>
-  
-          <div class="text-end">
-              <button type="button" class="btn btn-outline-light me-2 " data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
-              <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#sing-upModal">Sign-up</button>
-          </div>
-          
+        <!-- Buttons -->
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#signUpModal">Sign-up</button>
         </div>
       </div>
+    </div>
   </header>
-
-  <section class="bg-black d-flex align-items-center" style="z-index: 1020; position: sticky; top: 0; height: 70px; opacity: 70%">
-      <div class="container">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-
-          <a href="#" class="logo d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-              <img class="w-100 h-100" src="img/logo.png" alt="">
-          </a>
   
-          <ul class="nav col-12 col-lg-auto m-lg-auto mb-2 justify-content-center mb-md-0 ">
-            <li><a href="#" class="nav-link px-4 text-warning"><i class="fa-solid fa-house pe-2"></i>Home</a></li>
-            <li class="nav-item position-relative">
-              <a href="#" class="nav-link px-4 text-white dropdown-toggle-dark"><i class="fa-solid fa-film pe-2"></i>Movies</a>
-              <ul class="dropdown-menu text-small bg-black border border-warning">
-                <li><a class="dropdown-item d-flex align-items-center gap-2 py-2 text-light" href="#">
-                  <span class="d-inline-block bg-success rounded-circle p-1"></span>Drama</a>
-                </li>
-                <li><a class="dropdown-item d-flex align-items-center gap-2 py-2 text-light" href="#">
-                  <span class="d-inline-block bg-primary rounded-circle p-1"></span>Fantasy</a>
-                </li>
-                <li><a class="dropdown-item d-flex align-items-center gap-2 py-2 text-light" href="#">
-                  <span class="d-inline-block bg-danger rounded-circle p-1"></span>History</a>
-                </li>
-                <li><a class="dropdown-item d-flex align-items-center gap-2 py-2 text-light" href="#">
-                  <span class="d-inline-block bg-info rounded-circle p-1"></span>Animation</a>
-                </li>
-                <li><a class="dropdown-item d-flex align-items-center gap-2 py-2 text-light" href="#">
-                  <span class="d-inline-block bg-warning rounded-circle p-1"></span>Adventure</a>
-                </li>
+  <section class="bg-black position-sticky top-0" style=" z-index: 1020; opacity: 70%;">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-black" style="height: 70px;">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="img/logo.png" alt="Logo">
+        </a>
+  
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+  
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-3"><a class="nav-link text-warning" href="#"><i class="fa-solid fa-house pe-2"></i>Home</a></li>
+            <li class="nav-item dropdown bg-black">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="moviesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-film pe-2"></i>Movies</a>
+              <ul class="dropdown-menu bg-black border border-warning" aria-labelledby="moviesDropdown">
+                <li><a class="dropdown-item text-light" href="#"><span class="bg-success rounded-circle me-2 p-1"></span>Drama</a></li>
+                <li><a class="dropdown-item text-light" href="#"><span class="bg-primary rounded-circle me-2 p-1"></span>Fantasy</a></li>
+                <li><a class="dropdown-item text-light" href="#"><span class="bg-danger rounded-circle me-2 p-1"></span>History</a></li>
+                <li><a class="dropdown-item text-light" href="#"><span class="bg-info rounded-circle me-2 p-1"></span>Animation</a></li>
+                <li><a class="dropdown-item text-light" href="#"><span class="bg-warning rounded-circle me-2 p-1"></span>Adventure</a></li>
               </ul>
             </li>
-            <li><a href="popular.html" class="nav-link px-4 text-white"><i class="fa-solid fa-handshake pe-2"></i>Popular</a></li>
-            <li><a href="new.html" class="nav-link px-4 text-white"><i class="fa-solid fa-calendar pe-2"></i>New</a></li>
-            <li><a href="coming-soon.html" class="nav-link px-4 text-white"><i class="fa-solid fa-address-card pe-2"></i>Coming Soon</a></li>
-            <li><a href="about-me.html" class="nav-link px-4 text-white"><i class="fa-solid fa-user pe-2"></i>About Me</a></li>
+            <li class="nav-item px-3"><a class="nav-link text-white" href="popular.html"><i class="fa-solid fa-handshake pe-2"></i>Popular</a></li>
+            <li class="nav-item px-3"><a class="nav-link text-white" href="new.html"><i class="fa-solid fa-calendar pe-2"></i>New</a></li>
+            <li class="nav-item px-3"><a class="nav-link text-white" href="coming-soon.html"><i class="fa-solid fa-address-card pe-2"></i>Coming Soon</a></li>
+            <li class="nav-item v"><a class="nav-link text-white" href="about-me.html"><i class="fa-solid fa-user pe-2"></i>About Me</a></li>
           </ul>
   
+          <!-- Profile Dropdown -->
           <div class="dropdown text-end">
-              <a href="#" class="d-block link-light text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                <img class="profile" src="https://avatars.githubusercontent.com/u/159999396?v=4" alt="mdo" width="32" height="32" class="rounded-circle">
-              </a>
-              <ul class="dropdown-menu text-small">
-                <li><a class="dropdown-item" href="#"><i class="fa-brands fa-square-instagram pe-2 text-danger"></i>Instagram</a></li>
-                <li><a class="dropdown-item" href="#"><i class="fa-brands fa-square-facebook pe-2 text-primary"></i>Facebook</a></li>
-                <li><a class="dropdown-item" href="#"><i class="fa-brands fa-telegram pe-2 text-info"></i>Telegram</a></li>
-                <li><a class="dropdown-item" href="#"><i class="fa-brands fa-twitter pe-2 text-primary"></i>Twitter</a></li>
-              </ul>
-            </div>
+            <a href="#" class="d-block link-light text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://avatars.githubusercontent.com/u/159999396?v=4" alt="Profile" class="rounded-circle" width="32" height="32">
+            </a>
+            <ul class="dropdown-menu text-small">
+              <li><a class="dropdown-item" href="#"><i class="fa-brands fa-square-instagram pe-2 text-danger"></i>Instagram</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fa-brands fa-square-facebook pe-2 text-primary"></i>Facebook</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fa-brands fa-telegram pe-2 text-info"></i>Telegram</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fa-brands fa-twitter pe-2 text-primary"></i>Twitter</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </nav>
+    </div>
   </section>
+  
 
   <div class="modal fade w-100" id="loginModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog m-auto">
@@ -242,33 +242,12 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="w-100" src="img/sub-hero2.jpg" alt="">
-                <div class="container">
-                  <div class="carousel-caption text-start">
-                    <h1>Example headline.</h1>
-                    <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                  </div>
-                </div>
               </div>
               <div class="carousel-item">
                 <img class="w-100" src="img/sub-hero1.jpg" alt="">
-                <div class="container">
-                  <div class="carousel-caption">
-                    <h1>Another example headline.</h1>
-                    <p>Some representative placeholder content for the second slide of the carousel.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                  </div>
-                </div>
               </div>
               <div class="carousel-item">
                 <img class="w-100" src="img/sub-hero3.jpg" alt="">
-                <div class="container">
-                  <div class="carousel-caption text-end">
-                    <h1>One more for good measure.</h1>
-                    <p>Some representative placeholder content for the third slide of this carousel.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                  </div>
-                </div>
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
