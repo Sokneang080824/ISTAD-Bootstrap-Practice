@@ -108,3 +108,58 @@ footer {
 .bg-img3 {
   background-image: url("..img/foot-img.png");
 }
+
+/* General styling */
+body {
+  background-color: #000; /* Black theme for contrast */
+  color: #fff;
+}
+
+.header {
+  background-color: #1c1c1c;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .logo-img {
+  height: 40px;
+}
+.new{
+  margin-top: 700px;
+}
+.carousel-inner img {
+  object-fit: cover;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner{
+    margin-top: 220px;
+    height: 100%;
+  }
+  .carousel-item{
+    height: 100%;
+  }
+  .carousel-item img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+  #myCarousel{
+    height: 100vh !important;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    height: 200px !important;
+  }
+
+  .new{
+    margin-top: 500px;
+  }
+}
+@media (max-width: 992px){
+  .row-cols-2 > .col:nth-child(5){
+    display: none;
+  }
+}
